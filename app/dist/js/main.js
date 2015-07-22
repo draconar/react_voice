@@ -6,7 +6,7 @@ var Action = React.createClass({displayName: "Action",
   render: function(){
     return (React.createElement("div", {className: "center-block"}, 
         React.createElement("button", {type: "button", className: "btn btn-default", "aria-label": "Left Align", onClick: this.props.hearWhatWasSaid}, 
-          React.createElement("span", {class: "glyphicon glyphicon-play-circle", "aria-hidden": "true"}), " Play"
+          React.createElement("span", {className: "glyphicon glyphicon-play-circle", "aria-hidden": "true"}), " Play"
         )
     ))
   }
